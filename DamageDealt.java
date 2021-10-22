@@ -1,5 +1,4 @@
 // <Student Name>, AP CSA Unit 1 Challenge, Andrew Jackson High School, <Date>, <Time>, v0.0
-// Peer Dubugging by johann burke
 import java.util.Scanner;
 
 public class DamageDealt {
@@ -9,29 +8,24 @@ public class DamageDealt {
         String userName = myScanner.nextLine();
         System.out.println("Hello fellow Hero!" + userName);
 
-        System.out.println("Please enter your weapon name:");
-        String weaponNanme = myScanner.nextLine();
-        String weaponName;
+        System.out.println("\nPlease enter your weapon name:");
+        String weaponName = myScanner.nextLine();
         System.out.println(weaponName + "Is a wonderful choice");
 
-        System.out.println("Please enter the monster name:");
+        System.out.println("\nPlease enter the monster name:");
         String monsterNanme = myScanner.nextLine();
-        String monsterame;
         System.out.println(monsterNanme + "is a frightening monster!");
 
-        System.out.println("How many attacks would you like to make");
-        int numberAttack = myScanner.nextInt();
+        System.out.println("\nHow many attacks would you like to make");
+        var numberAttack = myScanner.nextInt();
         System.out.println(numberAttack + "ammount of attacks");
 
-        System.out.println("How many attacks would you like to make");
+        System.out.println("\n Your attack power?");
         int damageDealt = myScanner.nextInt();
         System.out.println(damageDealt + "damage per attack");
 
-        int totalDamage; 
-        var toalDamage = numberAttack * damageDealt; 
-        System.out.println("Your total damge was" + totalDamage);
-
-       
+        int totalDamage = numberAttack * damageDealt; 
+        System.out.println("\nYour total damge was" + totalDamage);
     
     }
 }
