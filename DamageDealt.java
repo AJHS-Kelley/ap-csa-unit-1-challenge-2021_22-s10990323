@@ -1,4 +1,5 @@
 // <Student Name>, AP CSA Unit 1 Challenge, Andrew Jackson High School, <Date>, <Time>, v0.0
+// Peer Dubugging by johann burke
 import java.util.Scanner;
 
 public class DamageDealt (String[] args); {
