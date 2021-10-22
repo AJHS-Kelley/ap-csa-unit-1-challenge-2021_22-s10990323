@@ -1,4 +1,5 @@
 // <Student Name>, AP CSA Unit 1 Challenge, Andrew Jackson High School, <Date>, <Time>, v0.0
+// Debugging by challah byard
 import java.util.Scanner;
 
 public class DamageDealt {
@@ -26,6 +27,8 @@ public class DamageDealt {
 
         int totalDamage = numberAttack * damageDealt; 
         System.out.println("\nYour total damge was" + totalDamage);
+        // It works fine
+        // I love the way you worded your code
     
     }
 }
